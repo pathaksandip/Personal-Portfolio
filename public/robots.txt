@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sandippathak.com.np/sitemap.xml 

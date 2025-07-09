@@ -28,11 +28,34 @@ To learn more about Next.js, take a look at the following resources:
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-## Features of my poject 
+
+## Features of my poject
 
 ## Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
 ## Feaatures of my project. 👍
+
+## SEO Integration
+
+This portfolio is optimized for search engines and social sharing. It includes:
+
+- Descriptive meta tags (title, description, keywords)
+- Open Graph tags for rich social sharing (Facebook, LinkedIn, etc.)
+- Twitter Card metadata for enhanced Twitter previews
+- Canonical URL and viewport settings
+- Author and creator metadata
+
+All SEO metadata is managed in `app/layout.tsx` using Next.js 13+ metadata API.
+
+### Advanced SEO Features
+
+- **Structured Data (JSON-LD):**
+  - Person and Website schema injected in `app/layout.tsx` for rich search results.
+- **robots.txt:**
+  - Located in `public/robots.txt` to guide search engine crawlers and point to the sitemap.
+- **sitemap.xml:**
+  - Located in `public/sitemap.xml` to help search engines discover all main pages.
