@@ -1,3 +1,18 @@
 User-agent: *
 Allow: /
-Sitemap: https://sandippathak.com.np/sitemap.xml 
+
+# Sitemap
+Sitemap: https://sandippathak.com.np/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow admin or private areas (if any)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Allow all other content
+Allow: /assets/
+Allow: /components/
+Allow: /public/ 
