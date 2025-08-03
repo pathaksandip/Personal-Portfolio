@@ -9,7 +9,10 @@ export const metadata: Metadata = {
   title: "Sandip Pathak | Full Stack Developer Portfolio",
   description:
     "Portfolio of Sandip Pathak, a Full Stack Software Developer specializing in scalable and efficient web applications. Explore projects, experience, and contact information.",
-  keywords: [
+    other: {
+      "google-site-verification": "rmvUKL0R_wAnKOeJzhspesB0jPjRGtdZ-rlJpcK-wpU",
+    },
+    keywords: [
     "Sandip Pathak",
     "Full Stack Developer",
     "Portfolio",
@@ -27,6 +30,7 @@ export const metadata: Metadata = {
     title: "Sandip Pathak | Full Stack Developer Portfolio",
     description:
       "Portfolio of Sandip Pathak, a Full Stack Software Developer specializing in scalable and efficient web applications.",
+   
     url: "https://sandippathak.com.np",
     siteName: "Sandip Pathak Portfolio",
     images: [
